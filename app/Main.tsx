@@ -4,15 +4,10 @@ import siteMetadata from '@/data/siteMetadata'
 import { formatDate } from 'pliny/utils/formatDate'
 import NewsletterForm from 'pliny/ui/NewsletterForm'
 
-import { ReactNode } from 'react'
-import type { Authors } from 'contentlayer/generated'
-import SocialIcon from '@/components/social-icons'
-import Image from '@/components/Image'
 import { Authors, allAuthors } from 'contentlayer/generated'
 import { MDXLayoutRenderer } from 'pliny/mdx-components'
 import AuthorLayout from '@/layouts/AuthorLayout'
 import { coreContent } from 'pliny/utils/contentlayer'
-import { genPageMetadata } from 'app/seo'
 
 const MAX_DISPLAY = 5
 const author = allAuthors.find((p) => p.slug === 'default') as Authors
