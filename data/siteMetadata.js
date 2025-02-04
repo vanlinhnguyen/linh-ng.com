@@ -4,6 +4,7 @@ const siteMetadata = {
   author: 'Linh Nguyen',
   headerTitle: "Linh's Blog",
   description: 'Machine learning Engineer at Meta (fka Facebook)',
+  blogDescription: 'My personal updates, thoughts and reflections',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
