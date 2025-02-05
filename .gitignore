@@ -8,6 +8,7 @@
 !/.yarn/releases
 !/.yarn/plugins
 !/.yarn/sdks
+!/.yarn/releases
 
 # testing
 /coverage
@@ -45,3 +46,9 @@ yarn-error.log*
 
 # Contentlayer
 .contentlayer
+
+# Other
+.devcontainer
+.github
+.husky
+.vscode
