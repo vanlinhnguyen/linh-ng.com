@@ -7,14 +7,13 @@ const siteMetadata = {
   blogDescription: 'My personal updates, thoughts and reflections',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteUrl: 'https://www.linh-ng.com',
+  siteRepo: 'https://github.com/vanlinhnguyen/linh-ng.com',
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
-  mastodon: 'https://mastodon.social/@mastodonuser',
   email: 'linh.van.nguyen@hotmail.com',
   github: 'https://github.com/vanlinhnguyen',
-  linkedin: 'https://www.linkedin.com',
+  linkedin: 'https://www.linkedin.com/in/linh-ng-88685b9a/',
   locale: 'en-US',
   // set to true if you want a navbar fixed to the top
   stickyNav: false,
