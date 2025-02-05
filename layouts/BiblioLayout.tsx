@@ -42,49 +42,73 @@ export default function BiblioLayout({ children, content }: Props) {
         </div>
       </div>
       {/* Endorsements Section */}
-      <div className="border-t border-gray-300 dark:border-gray-600 mt-12 pt-8">
+      <div className="mt-12 border-t border-gray-300 pt-8 dark:border-gray-600">
         <div className="space-y-2 pb-8 pt-6 md:space-y-5">
-            <h3 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-2xl md:leading-14">
-                Endorsements
-            </h3>
+          <h3 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-2xl md:leading-14">
+            Endorsements
+          </h3>
         </div>
-          {/* Endorsements Container */}
-        <div className="prose max-w-none dark:prose-invert space-y-6">
-            <blockquote className="border-l-4 border-gray-300 dark:border-gray-600 pl-4 italic text-gray-700 dark:text-gray-300">
-                "Linh has certainly exceeded my expectations (and) ramping up (on the new team) at astonishingly great pace and being one of the most trustworthy engineers on team..."
-            </blockquote>
-            <p className="font-semibold text-gray-900 dark:text-gray-100 text-right">Sagar A. (Meta)</p>
+        {/* Endorsements Container */}
+        <div className="prose max-w-none space-y-6 dark:prose-invert">
+          <blockquote className="border-l-4 border-gray-300 pl-4 italic text-gray-700 dark:border-gray-600 dark:text-gray-300">
+            "Linh has certainly exceeded my expectations (and) ramping up (on the new team) at
+            astonishingly great pace and being one of the most trustworthy engineers on team..."
+          </blockquote>
+          <p className="text-right font-semibold text-gray-900 dark:text-gray-100">
+            Sagar A. (Meta)
+          </p>
 
-            <blockquote className="border-l-4 border-gray-300 dark:border-gray-600 pl-4 italic text-gray-700 dark:text-gray-300">
-                "Linh showed amazing flexibility and resilience in the light of changing priorities..."
-            </blockquote>
-            <p className="font-semibold text-gray-900 dark:text-gray-100 text-right">Sasha S. (Meta)</p>
+          <blockquote className="border-l-4 border-gray-300 pl-4 italic text-gray-700 dark:border-gray-600 dark:text-gray-300">
+            "Linh showed amazing flexibility and resilience in the light of changing priorities..."
+          </blockquote>
+          <p className="text-right font-semibold text-gray-900 dark:text-gray-100">
+            Sasha S. (Meta)
+          </p>
 
-            <blockquote className="border-l-4 border-gray-300 dark:border-gray-600 pl-4 italic text-gray-700 dark:text-gray-300">
-                "Linh is an exceptional team player who consistently demonstrates his willingness to help and collaborate with others ..."
-            </blockquote>
-            <p className="font-semibold text-gray-900 dark:text-gray-100 text-right">Marco T. (Meta)</p>
+          <blockquote className="border-l-4 border-gray-300 pl-4 italic text-gray-700 dark:border-gray-600 dark:text-gray-300">
+            "Linh is an exceptional team player who consistently demonstrates his willingness to
+            help and collaborate with others ..."
+          </blockquote>
+          <p className="text-right font-semibold text-gray-900 dark:text-gray-100">
+            Marco T. (Meta)
+          </p>
 
-            <blockquote className="border-l-4 border-gray-300 dark:border-gray-600 pl-4 italic text-gray-700 dark:text-gray-300">
-            "Linh was an excellent mentor during my internship at Amadeus. His strong communication skills and extensive domain knowledge were invaluable to me. He not only explained how to design and execute big data processing workflows but also guided me in reflecting on my career goals and the path I wanted to pursue."
-            </blockquote>
-            <p className="font-semibold text-gray-900 dark:text-gray-100 text-right">Tristan S. (Google)</p>
+          <blockquote className="border-l-4 border-gray-300 pl-4 italic text-gray-700 dark:border-gray-600 dark:text-gray-300">
+            "Linh was an excellent mentor during my internship at Amadeus. His strong communication
+            skills and extensive domain knowledge were invaluable to me. He not only explained how
+            to design and execute big data processing workflows but also guided me in reflecting on
+            my career goals and the path I wanted to pursue."
+          </blockquote>
+          <p className="text-right font-semibold text-gray-900 dark:text-gray-100">
+            Tristan S. (Google)
+          </p>
 
-            <blockquote className="border-l-4 border-gray-300 dark:border-gray-600 pl-4 italic text-gray-700 dark:text-gray-300">
-            "I have known Linh for 6 months as a mentor for my internship at Amadeus. From my experience, Linh is curious, competent, and easy to work with. He was a great colleague, and we enjoyed working on problems related to machine learning and software engineering in the context of flight search and recommendation."
-            </blockquote>
-            <p className="font-semibold text-gray-900 dark:text-gray-100 text-right">Imad A. (PhD, Criteo)</p>
+          <blockquote className="border-l-4 border-gray-300 pl-4 italic text-gray-700 dark:border-gray-600 dark:text-gray-300">
+            "I have known Linh for 6 months as a mentor for my internship at Amadeus. From my
+            experience, Linh is curious, competent, and easy to work with. He was a great colleague,
+            and we enjoyed working on problems related to machine learning and software engineering
+            in the context of flight search and recommendation."
+          </blockquote>
+          <p className="text-right font-semibold text-gray-900 dark:text-gray-100">
+            Imad A. (PhD, Criteo)
+          </p>
 
-            <blockquote className="border-l-4 border-gray-300 dark:border-gray-600 pl-4 italic text-gray-700 dark:text-gray-300">
-            "Linh is probably the best researcher our company employed during the last 15 years. I was very impressed by the speed he understood our requirements and trained well performing DNN models..."
-            </blockquote>
-            <p className="font-semibold text-gray-900 dark:text-gray-100 text-right">Alexey K. (PhD, Digital Barriers)</p>
+          <blockquote className="border-l-4 border-gray-300 pl-4 italic text-gray-700 dark:border-gray-600 dark:text-gray-300">
+            "Linh is probably the best researcher our company employed during the last 15 years. I
+            was very impressed by the speed he understood our requirements and trained well
+            performing DNN models..."
+          </blockquote>
+          <p className="text-right font-semibold text-gray-900 dark:text-gray-100">
+            Alexey K. (PhD, Digital Barriers)
+          </p>
 
-            <blockquote className="border-l-4 border-gray-300 dark:border-gray-600 pl-4 italic text-gray-700 dark:text-gray-300">
-            "The best Data-Scientist in our team at the time. Curious and resourceful, always finding the best ML tools for the job at hand."
-            </blockquote>
-            <p className="font-semibold text-gray-900 dark:text-gray-100 text-right">Edward O. (Amadeus)</p>
-
+          <blockquote className="border-l-4 border-gray-300 pl-4 italic text-gray-700 dark:border-gray-600 dark:text-gray-300">
+            "The best Data-Scientist in our team at the time. Curious and resourceful, always
+            finding the best ML tools for the job at hand."
+          </blockquote>
+          <p className="text-right font-semibold text-gray-900 dark:text-gray-100">
+            Edward O. (Amadeus)
+          </p>
         </div>
       </div>
     </>

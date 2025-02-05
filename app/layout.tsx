@@ -67,11 +67,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       className={`${space_grotesk.variable} scroll-smooth`}
       suppressHydrationWarning
     >
-      <link rel="icon" type="image/png" href={`${basePath}/static/favicons/favicon-96x96.png`}/>
-      <link rel="icon" type="image/svg+xml" href={`${basePath}/static/favicons/favicon-96x96.png`}/>
-      <link rel="shortcut icon" href={`${basePath}/static/favicons/favicon.ico`}/>
-      <link rel="apple-touch-icon" sizes="180x180" href={`${basePath}/static/favicons/apple-touch-icon.png`}/>
-      <link rel="manifest" href={`${basePath}/static/favicons/site.webmanifest`}/>
+      <link rel="icon" type="image/png" href={`${basePath}/static/favicons/favicon-96x96.png`} />
+      <link
+        rel="icon"
+        type="image/svg+xml"
+        href={`${basePath}/static/favicons/favicon-96x96.png`}
+      />
+      <link rel="shortcut icon" href={`${basePath}/static/favicons/favicon.ico`} />
+      <link
+        rel="apple-touch-icon"
+        sizes="180x180"
+        href={`${basePath}/static/favicons/apple-touch-icon.png`}
+      />
+      <link rel="manifest" href={`${basePath}/static/favicons/site.webmanifest`} />
       <meta name="msapplication-TileColor" content="#000000" />
       <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fff" />
       <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000" />
