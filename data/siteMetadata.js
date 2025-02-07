@@ -1,9 +1,9 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Personal projects, thoughts and reflections',
+  title: "Linh's Blog",
   author: 'Linh NG',
   headerTitle: "Linh's Blog",
-  description: 'Machine learning Engineer at Meta (fka Facebook)',
+  description: 'Personal projects, thoughts and reflections',
   blogDescription: 'My personal updates, thoughts and reflections',
   language: 'en-us',
   theme: 'system', // system, dark or light
