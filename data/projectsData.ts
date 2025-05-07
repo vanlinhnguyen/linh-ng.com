@@ -7,10 +7,10 @@ interface Project {
 
 const projectsData: Project[] = [
   {
-    title: 'Own your AI',
-    description: `AI is the future. Own it. Have your AI locally, working for you, privately, and securely.`,
+    title: 'Machine learning for engineers',
+    description: `A short summary of common Machine Learning techniques and designs.`,
     imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    href: '/blog/ml_for_engs',
   },
 ]
 
